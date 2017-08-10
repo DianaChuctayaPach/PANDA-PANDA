@@ -1,9 +1,9 @@
 *{
-       outline: 1px solid blue;   
+          outline: 1px solid blue;      
 }
 body{
     /* height: 900px; */
-     background: #1d1a05; 
+     background: #027D53; 
      align-content: center;
 }
 p{
@@ -17,7 +17,7 @@ a{
     margin: 40px;
 }
 a:hover{
-    color: teal;
+    color: purple;
  }
 .menu-container{
     background: transparent;
@@ -38,11 +38,9 @@ header{
     width: 100%;  
     top: 0;
     left: 0; 
+    
 }
-.menu{
-     padding: 14px 70px; 
-     overflow: auto; 
-}
+  
 img{
     border-radius:10px;
     border: 2px solid white;
@@ -50,28 +48,28 @@ img{
 /* img:hover {
     box-shadow: 0 0 2px 2px rgba(0, 140, 186, 0.5);
 } */
+
 .gallery{
     margin-top: 150px;
 }
 #galeria{
-    
-    width: 250px;
-    height: 250px;
-     
+    width: 200px;
+    height: 200px;
     display:inline-flex;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
 }
 #texto{
+    margin-top: 20px;
     display:inline-block;
     color: white; 
     background-color: transparent;
     margin: 30px;
       width: 40%;
     padding: 20px;
-
 }
 #texto1{
+    margin-top: 20px;
     display: inline-block;
     color: white;
     margin: 30px;
@@ -80,21 +78,38 @@ img{
 
 }
 #cajadetexto{
+
     display: inline-block;
     background-color: transparent;
     margin: 20px;
     padding: 30px;
 }
+#boton:hover{
+    color: purple;
+ }
 #boton{
+    margin-top: 40px;
     background-color: #ca3c25;
-    margin-right: 35px;
-    margin-left: 65px;
+    margin-right: 25px; 
+    margin-left: 30px; 
     height: 40px; 
-    width: 300px;
+    width: 350px;
     border: 1px  solid #ca3c25;
     display: inline-block;
     color: white;
     font-size: 18px;
+}
+div.cajapadre{
+    display: inline-flex;
+}
+.cajapadre{
+    position: relative;
+}
+.close{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: teal;
     
-
 }
