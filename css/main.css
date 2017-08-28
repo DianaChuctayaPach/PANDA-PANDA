@@ -1,9 +1,9 @@
 *{
-          outline: 1px solid blue;      
+          /* outline: 1px solid blue;       */
 }
 body{
     /* height: 900px; */
-     background: #027D53; 
+     background: #B22B27; 
      align-content: center;
 }
 p{
@@ -34,7 +34,7 @@ a:hover{
 header{
     position: fixed; 
 
-    background: #ca3c25;
+    background: #26AD54;
     width: 100%;  
     top: 0;
     left: 0; 
@@ -43,7 +43,7 @@ header{
   
 img{
     border-radius:10px;
-    border: 2px solid white;
+    border: 2px solid #26AD54;
 } 
 /* img:hover {
     box-shadow: 0 0 2px 2px rgba(0, 140, 186, 0.5);
@@ -89,27 +89,34 @@ img{
  }
 #boton{
     margin-top: 40px;
-    background-color: #ca3c25;
+    background-color: #26AD54;
     margin-right: 25px; 
     margin-left: 30px; 
     height: 40px; 
     width: 350px;
-    border: 1px  solid #ca3c25;
+    border: 1px  solid #26AD54;
     display: inline-block;
     color: white;
     font-size: 18px;
 }
 div.cajapadre{
     display: inline-flex;
+    /* position: fixed; */
 }
 .cajapadre{
-    position: relative;
+    /* position: relative; */
 }
 .close{
-    position: absolute;
+    position: absolute;  
     margin-left: 30px;
-    margin-top: 30px;
+    margin-top: 30px; 
+    color: red;
+    background: #26AD54; 
+    width: 15px; 
+    text-align: center;
     font-size: 20px;
-    color: teal;
-    
+    border-radius: 100%;
+    line-height: 15px;
+    text-decoration: none;
+
 }
