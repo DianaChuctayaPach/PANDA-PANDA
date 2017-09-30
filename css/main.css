@@ -111,6 +111,7 @@ a:hover{
     height: 20px;
     background-size: 750%;
     background-position: center;
+    border-radius: 20px;
     
 }
 #gif{
