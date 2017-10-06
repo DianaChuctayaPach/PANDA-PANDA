@@ -4,17 +4,16 @@ $(document).ready(function(){
         
     });
  //para desaparecer los pandas
-    $(".extincion").click(function(){
-        $("#textoextincion").hide();
+    $(".origen").click(function(){
+        $("#textORIGEN").toggle();
     });//para desaparecer texto extincion
-
+    $(".extincion").click(function(){
+        $("#textoextincion").toggle();
+    });//para desaparecer texto extincion
     $(".pandas").click(function(){
         $(".cajapadre").slideDown();
     });//para hacer aparecer las fotos
 
-    $(".origen").click(function(){
-        $("#textoextincion").slideDown();
-    });//para hacer aparecer las fotos
         $("img").addClass("option animated jackInTheBox");
         $("button").addClass("option animated jackInTheBox");
         $(".close").addClass("option animated jackInTheBox");

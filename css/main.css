@@ -3,8 +3,7 @@
 }
 body{
     background-image:url(../img/fondo.jpg);
-    background-repeat: no-repeat;
-     padding: 0px;
+    padding: 0;
      margin: 0;
 }
 a{
@@ -36,8 +35,8 @@ header{
 }
   
 img{
-    border-radius:10px;
-    border: 2px solid #26AD54;
+    
+    border-radius: 30px ;
 } 
 .gallery{
     margin-top: 150px;
@@ -49,9 +48,9 @@ img{
     padding: 10px;
     margin: 10px;
 }
-#texto{
-    margin-top: 20px;
-    background-image: url(../img/text.jpg);
+#textORIGEN{
+    top: 30px;
+    background-image: url(../img/marco.jpg);background-size: 100%;
     display: inline-block;
     color: #0A4726;
     font-size: 1.5vw;
@@ -61,8 +60,9 @@ img{
     padding: 30px;
 }
 #textoextincion{
-    margin-top: 10px;
-    background-image: url(../img/text.jpg);
+    /* margin-top: 0px; */
+    background-image: url(../img/marco.jpg);    
+    background-size: 100%;
     display: inline-block;
     color: #0A4726;
     font-size: 1.5vw;
@@ -71,6 +71,9 @@ img{
     font-weight: bold;
     padding: 30px;
 
+}
+#textos{
+    height: 60vh;
 }
 #cajadetexto{
 
@@ -96,7 +99,7 @@ img{
 }
 div.cajapadre{
     display: inline-flex;
-    /* position: fixed; */
+
 }
 a:hover{
     color: #08524C;
@@ -128,19 +131,14 @@ a:hover{
     /* float: right; */
     margin-left:90%;
 }
-#origen{
-    background-image: url(../img/botonmenu.png);
-    background-repeat: no-repeat; 
-    background-color: transparent;
-    filter: grayscale(0%);
-    color: transparent;
-    border: transparent;
-  }
 footer{
     background: #26AD54;
     padding: 20px;
-    /* height: 50px; */
+    bottom: 0%;
     color: white;
-    bottom: 0px;
-
+}
+#logo{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 100px;
 }
